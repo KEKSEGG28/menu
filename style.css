@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.card {
+  max-width: 272px;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+}
+.card_pictures {
+  max-width: 272px;
+  height: 160px;
+  position: relative;
+}
+.img{
+  height: 160px;
+  width: 272px;
+
+
+}
+
+.like_button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background-image: url(./image/Button.jpg);
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  opacity: 0.5;
+
+}
+.like_button:hover {
+  cursor: pointer;
+  box-shadow: 3px 5px 4px 2px rgb(0, 254, 0);
+
+}
+
+.sale {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  display: inline-flex;
+  padding: 4px 8px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #f63;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  margin: 0;
+}
+.wsales {
+  color: #414141;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.nsales {
+  color: #606060;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.wcard {
+  align-self: stretch;
+  font-family: sans-serif;
+  color: #bfbfbf;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+.ncard {
+  color: #bfbfbf;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+.text {
+  color: #414141;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.button_1 {
+  height: 40px;
+  width: 256px;
+  background: white;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid #70c05b;
+  color: #70c05b;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+.button_1:hover {
+  background: green;
+  color: white;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price p {
+  margin: 0;
+}
+.card_text {
+  padding: 15px;
+  width: 100%;
+}
+.rating {
+  margin-top: 8px;
+}
